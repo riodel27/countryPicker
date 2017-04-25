@@ -1,0 +1,57 @@
+{
+  "countries":
+  [
+    {
+      "image":"img/Afghanistan.png",
+      "name": "Afghanistan"
+    },
+    {
+      "image":"img/Albania.png",
+      "name": "Albania"
+    },
+    {
+      "image":"img/Algeria.png",
+      "name":"Algeria"
+    },
+    {
+      "image":"img/Andorra.png",
+      "name":"Andorra"
+    },
+    {
+      "image":"img/Angola.png",
+      "name":"Angola"
+    },
+    {
+      "image":"img/Antigua.png",
+      "name":"Antigua"
+    },
+    {
+      "image":"img/Argentina.png",
+      "name":"Argentina"
+    },
+    {
+      "image":"img/Armenia.png",
+      "name":"Armenia"
+    },
+    {
+      "image":"img/Australia.png",
+      "name":"Australia"
+    },
+    {
+      "image":"img/Austria.png",
+      "name":"Austria"
+    },
+    {
+      "image":"img/Azerbaijan.png",
+      "name":"Azerbaijan"
+    },
+    {
+      "image": "img/flag.png",
+      "name": "Philippines"
+    },
+    {
+      "image": "img/Brazil.png",
+      "name": "Brazil"
+    }
+  ]
+}

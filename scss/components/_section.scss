@@ -1,0 +1,71 @@
+h1{
+  text-align: center;
+}
+
+section{
+  margin: 50px auto;
+  max-width: 200px;
+  #country{
+    max-width: 500px;
+    background-color: yellow;
+    position: relative;
+    display: inline-block;
+  }
+  #countryBtn{
+    background-color: white;
+    border: 0;
+    padding: 20px 20px 20px 25px;
+    background-image: url('../img/flag.png'), url('../img/drop-icon.png');
+    background-repeat: no-repeat;
+    background-position: left, right;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  #countryBtn:focus{
+    outline: none;
+  }
+  .btnCountryName{
+    padding-left: 18px;
+    font-weight: bold;
+    font-size: 13px;
+    display: inline-block;
+  }
+  .ctry{
+    padding-left: 20px;
+  }
+  .countryList{
+    max-height: 100px;
+    min-width: 300px;
+    display: none;
+    position: absolute;
+    overflow-y: scroll;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    a{
+      text-decoration: none;
+      display: block;
+      color: gray;
+      padding-top: 10px;
+      position: relative;
+      cursor: pointer;
+      img{
+        margin-right: 10px;
+      }
+      span{
+        padding: 0 0 0 0;
+        position: absolute;
+        left: auto;
+        top: 15px;
+      }
+    }
+    a:focus{
+      outline: none;
+    }
+    a:hover{
+      background-color: #f1f1f1;
+      cursor: pointer;
+    }
+  }
+  .show{
+    display: block;
+  }
+}
